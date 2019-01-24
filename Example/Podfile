@@ -1,0 +1,15 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'otsdk_adobe_Example' do
+  pod 'otsdk_adobe', :path => '../'
+
+  target 'otsdk_adobe_Tests' do
+    inherit! :search_paths
+
+    
+  end
+
+  pod 'ACPCore', '~> 2.0.0'
+end

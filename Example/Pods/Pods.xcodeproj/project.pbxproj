@@ -1,0 +1,1063 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D4859132E17DBD3C061D8669892BD96 /* Pods-otsdk_adobe_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE97949C6536C99FFEF7A88CA18D79BA /* Pods-otsdk_adobe_Tests-dummy.m */; };
+		1112B173D5ED7EBDC7BBFA44507B3876 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B33432C2A4E740D66384C114D1E4A9 /* WebKit.framework */; };
+		114B45845C32C30C69C6E9E791E3326D /* ACPExtensionApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 099E4ED6A03779D53C1ABFDB48806E72 /* ACPExtensionApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1601BB3EEC9A94A29DBD1380594F4A07 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B442D7979B8BDD99D4492FA4C61152F9 /* UserNotifications.framework */; };
+		295576CB027790098F37FFF443CDA74A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B3269F16E6A308704931E4F805C260 /* UIKit.framework */; };
+		2F8D88D58A3823CEC3158F8075581EEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD011073A06F55D46CABE8D45FE650A0 /* Foundation.framework */; };
+		3D4E64A69F2F8C05581C792CE0365C80 /* ACPMobileVisitorId.h in Headers */ = {isa = PBXBuildFile; fileRef = 39A87B40B1440F8FC3808CE2B90AA699 /* ACPMobileVisitorId.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4992A2A1A10FCD1CE3E12938A01ED144 /* otsdk_adobe_listener.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4ECCED919E7669D95D099AC2B00319 /* otsdk_adobe_listener.m */; };
+		5FE3A684A96B18E219BB42A8E4485D4D /* Pods-otsdk_adobe_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97DCA5B06D4F9B5C5C8946E887FFB8B5 /* Pods-otsdk_adobe_Example-dummy.m */; };
+		60942543669FC675EA84B6303D763C30 /* ACPExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B2E8DA6CE46BF88CB12A1328C9DC1D7D /* ACPExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76E61DD96BC4790D7649CE063F73A3D4 /* ACPSignal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A29FA73044C111BECAD0CAD31D6AB02 /* ACPSignal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DE98C638BC9C5180C4664D6473E61FC /* ACPIdentity.h in Headers */ = {isa = PBXBuildFile; fileRef = C29B1BD9131FB8915B50509BC193F745 /* ACPIdentity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A8DBED814909F6EEB4414B00ED2763B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD011073A06F55D46CABE8D45FE650A0 /* Foundation.framework */; };
+		8F030565BD00922B491D133ADC0C0260 /* ACPExtensionListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 23059245F9447619E2B1DE026E0CDAD3 /* ACPExtensionListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95284D8BC4382F66C9FC1F58D687169E /* ACPExtensionEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = F5BCC8C5C5BFD76F741D36C08F4BC94E /* ACPExtensionEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B2C563D0C10368333CAB76FCBDEB5C3 /* Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C0A564576843460E0E6CC60FBA4A40 /* Empty.m */; };
+		9CBC7F9A6B29AFB4CBD566DD50958B83 /* ACPCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C40659109DDBC499D03A1AAB1E63560 /* ACPCore-dummy.m */; };
+		A26D1A591DFD6B5366C119B1F0E9BCD1 /* Pods-otsdk_adobe_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D63452ACC7C36244922997635318D7 /* Pods-otsdk_adobe_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9796695EC107DB853CDD1129009023E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A29D82E2D87227993112140A45D8A9D2 /* SystemConfiguration.framework */; };
+		B9D55B332CEE18373C3301E340C51EAE /* ACPCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B43C61A489EEA6A2C945C0194A4B4C24 /* ACPCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD39EE40B69FB03588107EFF8F760A50 /* Pods-otsdk_adobe_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E28499E7EEC248CEC913555548FF4A5E /* Pods-otsdk_adobe_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD2932AECA09B89F25F54DBDAE24327E /* ACPExtensionError.h in Headers */ = {isa = PBXBuildFile; fileRef = B4A65336AA2D877C80D0C2CB87A68AD9 /* ACPExtensionError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEDA28679F79AACDFFF018AE76DB57B8 /* ACPLifecycle.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AF0F2AE53431F3E916D4C9529CC67A /* ACPLifecycle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2AE2590051919A19BFCC983D2181855 /* otsdk_adobe-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E723E0805DF06F1F534B88F34CFC95 /* otsdk_adobe-dummy.m */; };
+		D370153E3E186B533EABF05B9DFE0CE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD011073A06F55D46CABE8D45FE650A0 /* Foundation.framework */; };
+		D5016B7D0FBDCBE4A1427AA2F1F86EB4 /* ACPCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AB5072D612989923CD04A5F0E64F141 /* ACPCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0AB130C840499073316C7F3CA4C8CF3 /* otsdk_adobe.h in Headers */ = {isa = PBXBuildFile; fileRef = 57F23A8FC2E17620998CF7B39060DAB3 /* otsdk_adobe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1C4E4A3B4A6A248F03547FE35D153F5 /* otsdk_adobe-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18923B5DD624E55F49488B919D315A89 /* otsdk_adobe-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5BFA943779150BAE57F986C1946ECCF /* otsdk_adobe.m in Sources */ = {isa = PBXBuildFile; fileRef = 288C208BF58B510E67A0D4D4956B7F20 /* otsdk_adobe.m */; };
+		F619B997BAD7B7F47B9B3CD8F21C40DF /* otsdk_adobe_listener.h in Headers */ = {isa = PBXBuildFile; fileRef = 11CDB7CDB4AE7D804D80D88CE5EDB25F /* otsdk_adobe_listener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8655625CCEDC3EDFCD3A7D56FDDA8FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD011073A06F55D46CABE8D45FE650A0 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4204790C963D3609817526B42B2C368B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 776A53DFD666DBC90846DC1A77EBC8D2;
+			remoteInfo = ACPCore;
+		};
+		A9D2119EB51D481C66F8EF04D56EF56C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 776A53DFD666DBC90846DC1A77EBC8D2;
+			remoteInfo = ACPCore;
+		};
+		B7267F743B361371CB587B984AF14958 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EB282AC74939CFF691B95E36B16E9E5;
+			remoteInfo = otsdk_adobe;
+		};
+		BBA2C63A9170FF0AA9CA6A2463EEE8FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B63966594ECCFBA42A6A0223C7130166;
+			remoteInfo = "Pods-otsdk_adobe_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06C14DEACB42E3F3EE9E8725B8FBAFC5 /* ACPCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ACPCore.xcconfig; sourceTree = "<group>"; };
+		08954EA2E7AE79C73F0826D58674D8D6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		099E4ED6A03779D53C1ABFDB48806E72 /* ACPExtensionApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACPExtensionApi.h; path = include/ACPExtensionApi.h; sourceTree = "<group>"; };
+		0B30D7567A2F7623C2095FB5EEBD71DF /* Pods-otsdk_adobe_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-otsdk_adobe_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		11CDB7CDB4AE7D804D80D88CE5EDB25F /* otsdk_adobe_listener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = otsdk_adobe_listener.h; path = otsdk_adobe/Classes/otsdk_adobe_listener.h; sourceTree = "<group>"; };
+		17B3269F16E6A308704931E4F805C260 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		18923B5DD624E55F49488B919D315A89 /* otsdk_adobe-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "otsdk_adobe-umbrella.h"; sourceTree = "<group>"; };
+		23059245F9447619E2B1DE026E0CDAD3 /* ACPExtensionListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACPExtensionListener.h; path = include/ACPExtensionListener.h; sourceTree = "<group>"; };
+		235CE581B97E51E841EC794C888ABF4A /* otsdk_adobe.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = otsdk_adobe.xcconfig; sourceTree = "<group>"; };
+		288C208BF58B510E67A0D4D4956B7F20 /* otsdk_adobe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = otsdk_adobe.m; path = otsdk_adobe/Classes/otsdk_adobe.m; sourceTree = "<group>"; };
+		29AF0F2AE53431F3E916D4C9529CC67A /* ACPLifecycle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACPLifecycle.h; path = include/ACPLifecycle.h; sourceTree = "<group>"; };
+		2DFB7A12D708B46FDC7ACCC421A8EDC6 /* otsdk_adobe.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = otsdk_adobe.modulemap; sourceTree = "<group>"; };
+		34140F57DFE52D4C8E0D89EA91FDA4CB /* Pods-otsdk_adobe_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-otsdk_adobe_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		39A87B40B1440F8FC3808CE2B90AA699 /* ACPMobileVisitorId.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACPMobileVisitorId.h; path = include/ACPMobileVisitorId.h; sourceTree = "<group>"; };
+		3C40659109DDBC499D03A1AAB1E63560 /* ACPCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ACPCore-dummy.m"; sourceTree = "<group>"; };
+		41EB4126AF98483AB90D6FFC722B036B /* Pods_otsdk_adobe_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_otsdk_adobe_Tests.framework; path = "Pods-otsdk_adobe_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4488D2CBB946835E5691897A01D58DB5 /* libACPSignal_iOS.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libACPSignal_iOS.a; sourceTree = "<group>"; };
+		47C27053ED6E22AA527F4505EC61C47F /* Pods-otsdk_adobe_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-otsdk_adobe_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C9A31E928C6EB455605E09607DCD0D9 /* Pods-otsdk_adobe_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-otsdk_adobe_Example-resources.sh"; sourceTree = "<group>"; };
+		57F23A8FC2E17620998CF7B39060DAB3 /* otsdk_adobe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = otsdk_adobe.h; path = otsdk_adobe/Classes/otsdk_adobe.h; sourceTree = "<group>"; };
+		5AB5072D612989923CD04A5F0E64F141 /* ACPCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACPCore.h; path = include/ACPCore.h; sourceTree = "<group>"; };
+		5C256A526874D9B2896D0C1FEF92EFBF /* ACPCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ACPCore.framework; path = ACPCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F746F758BD033EED197D42AD4189CDD /* Pods-otsdk_adobe_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-otsdk_adobe_Example.release.xcconfig"; sourceTree = "<group>"; };
+		63E723E0805DF06F1F534B88F34CFC95 /* otsdk_adobe-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "otsdk_adobe-dummy.m"; sourceTree = "<group>"; };
+		647A9C422E5246B359B9EACFC5CF9C51 /* Pods-otsdk_adobe_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-otsdk_adobe_Tests.modulemap"; sourceTree = "<group>"; };
+		696A25AB9299720826F8E44A10AB0309 /* otsdk_adobe-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "otsdk_adobe-prefix.pch"; sourceTree = "<group>"; };
+		6ABCBCD990A995E848BE967A8BFF1446 /* Pods-otsdk_adobe_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-otsdk_adobe_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		79D63452ACC7C36244922997635318D7 /* Pods-otsdk_adobe_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-otsdk_adobe_Example-umbrella.h"; sourceTree = "<group>"; };
+		7E6CF96707291DA96C2651BD0AC67DF5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B33432C2A4E740D66384C114D1E4A9 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		87BF5BA7383AD407F8F7B71D7D01CDDD /* Pods-otsdk_adobe_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-otsdk_adobe_Example.modulemap"; sourceTree = "<group>"; };
+		8E4ECCED919E7669D95D099AC2B00319 /* otsdk_adobe_listener.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = otsdk_adobe_listener.m; path = otsdk_adobe/Classes/otsdk_adobe_listener.m; sourceTree = "<group>"; };
+		933F2310450C54188442C863D67489CE /* otsdk_adobe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = otsdk_adobe.framework; path = otsdk_adobe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96A9DBCCC4D29ED4D3B21DB4CC7D2476 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		97DCA5B06D4F9B5C5C8946E887FFB8B5 /* Pods-otsdk_adobe_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-otsdk_adobe_Example-dummy.m"; sourceTree = "<group>"; };
+		9A29FA73044C111BECAD0CAD31D6AB02 /* ACPSignal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACPSignal.h; path = include/ACPSignal.h; sourceTree = "<group>"; };
+		9C1E7214FC547D95B86B7B1A004622D4 /* Pods-otsdk_adobe_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-otsdk_adobe_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A1AA1B71448E2FD2C06E6D92D3F29B6B /* ACPCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ACPCore-prefix.pch"; sourceTree = "<group>"; };
+		A1DA60CCFF144B7B242CFFBA0ED4406E /* libACPLifecycle_iOS.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libACPLifecycle_iOS.a; sourceTree = "<group>"; };
+		A29D82E2D87227993112140A45D8A9D2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		B23AACFE2E57751698AC5BE9BDB0386E /* libACPIdentity_iOS.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libACPIdentity_iOS.a; sourceTree = "<group>"; };
+		B2E8DA6CE46BF88CB12A1328C9DC1D7D /* ACPExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACPExtension.h; path = include/ACPExtension.h; sourceTree = "<group>"; };
+		B3C0A564576843460E0E6CC60FBA4A40 /* Empty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Empty.m; path = include/Empty.m; sourceTree = "<group>"; };
+		B43C61A489EEA6A2C945C0194A4B4C24 /* ACPCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ACPCore-umbrella.h"; sourceTree = "<group>"; };
+		B442D7979B8BDD99D4492FA4C61152F9 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UserNotifications.framework; sourceTree = DEVELOPER_DIR; };
+		B4A65336AA2D877C80D0C2CB87A68AD9 /* ACPExtensionError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACPExtensionError.h; path = include/ACPExtensionError.h; sourceTree = "<group>"; };
+		BFC4F27C93E81259F136D89A9F6C9B63 /* Pods_otsdk_adobe_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_otsdk_adobe_Example.framework; path = "Pods-otsdk_adobe_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C29B1BD9131FB8915B50509BC193F745 /* ACPIdentity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACPIdentity.h; path = include/ACPIdentity.h; sourceTree = "<group>"; };
+		CA11F260FDC954041047C38A1D3F4B83 /* Pods-otsdk_adobe_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-otsdk_adobe_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D4E2AE52E28FC3C571E14671EE3048C0 /* Pods-otsdk_adobe_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-otsdk_adobe_Tests-resources.sh"; sourceTree = "<group>"; };
+		D8CEEB1C91577FC3EFDEB26CC88CF02F /* Pods-otsdk_adobe_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-otsdk_adobe_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DD011073A06F55D46CABE8D45FE650A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DD9606BAEA2DE48EC8ACBDD58125B96F /* otsdk_adobe.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = otsdk_adobe.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DE0177717779D195FA99EC8D166F5A4C /* libACPCore_iOS.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libACPCore_iOS.a; sourceTree = "<group>"; };
+		E243EEA7817E6E863D23C1CFDEE07D27 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E28499E7EEC248CEC913555548FF4A5E /* Pods-otsdk_adobe_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-otsdk_adobe_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E951C4CB3135679C15E9ABBD420E13E5 /* Pods-otsdk_adobe_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-otsdk_adobe_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		EE97949C6536C99FFEF7A88CA18D79BA /* Pods-otsdk_adobe_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-otsdk_adobe_Tests-dummy.m"; sourceTree = "<group>"; };
+		F5BCC8C5C5BFD76F741D36C08F4BC94E /* ACPExtensionEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACPExtensionEvent.h; path = include/ACPExtensionEvent.h; sourceTree = "<group>"; };
+		F6A2F817560FE1910F268DA7A7D5A2E3 /* ACPCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ACPCore.modulemap; sourceTree = "<group>"; };
+		FC9D8CC39C933965576DD202AC1A0137 /* Pods-otsdk_adobe_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-otsdk_adobe_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65E70326E6AC730D0CCE4BC03F888C7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8655625CCEDC3EDFCD3A7D56FDDA8FE /* Foundation.framework in Frameworks */,
+				A9796695EC107DB853CDD1129009023E /* SystemConfiguration.framework in Frameworks */,
+				295576CB027790098F37FFF443CDA74A /* UIKit.framework in Frameworks */,
+				1601BB3EEC9A94A29DBD1380594F4A07 /* UserNotifications.framework in Frameworks */,
+				1112B173D5ED7EBDC7BBFA44507B3876 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AD4B387D08194A95709C6EF91F6A729 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A8DBED814909F6EEB4414B00ED2763B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C37D18689D90FB97B7EF5C67CB3CB88C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D370153E3E186B533EABF05B9DFE0CE3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8FBBA843CF8DBFB79C55241CA116699 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F8D88D58A3823CEC3158F8075581EEC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00AD0611414926135682C3485B211EA6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DFB7A12D708B46FDC7ACCC421A8EDC6 /* otsdk_adobe.modulemap */,
+				235CE581B97E51E841EC794C888ABF4A /* otsdk_adobe.xcconfig */,
+				63E723E0805DF06F1F534B88F34CFC95 /* otsdk_adobe-dummy.m */,
+				696A25AB9299720826F8E44A10AB0309 /* otsdk_adobe-prefix.pch */,
+				18923B5DD624E55F49488B919D315A89 /* otsdk_adobe-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/otsdk_adobe";
+			sourceTree = "<group>";
+		};
+		15ED835FD867B59ADD9A78EA04BB828F /* ACPCore */ = {
+			isa = PBXGroup;
+			children = (
+				446708A5143E3D80D153DB9E698709DC /* iOS */,
+				941E86588615D38846C0BC4D9B6B8F0F /* Support Files */,
+			);
+			name = ACPCore;
+			path = ACPCore;
+			sourceTree = "<group>";
+		};
+		17146CA7B8348797F71FC54D37F380B0 /* Pods-otsdk_adobe_Example */ = {
+			isa = PBXGroup;
+			children = (
+				08954EA2E7AE79C73F0826D58674D8D6 /* Info.plist */,
+				87BF5BA7383AD407F8F7B71D7D01CDDD /* Pods-otsdk_adobe_Example.modulemap */,
+				9C1E7214FC547D95B86B7B1A004622D4 /* Pods-otsdk_adobe_Example-acknowledgements.markdown */,
+				34140F57DFE52D4C8E0D89EA91FDA4CB /* Pods-otsdk_adobe_Example-acknowledgements.plist */,
+				97DCA5B06D4F9B5C5C8946E887FFB8B5 /* Pods-otsdk_adobe_Example-dummy.m */,
+				FC9D8CC39C933965576DD202AC1A0137 /* Pods-otsdk_adobe_Example-frameworks.sh */,
+				4C9A31E928C6EB455605E09607DCD0D9 /* Pods-otsdk_adobe_Example-resources.sh */,
+				79D63452ACC7C36244922997635318D7 /* Pods-otsdk_adobe_Example-umbrella.h */,
+				D8CEEB1C91577FC3EFDEB26CC88CF02F /* Pods-otsdk_adobe_Example.debug.xcconfig */,
+				5F746F758BD033EED197D42AD4189CDD /* Pods-otsdk_adobe_Example.release.xcconfig */,
+			);
+			name = "Pods-otsdk_adobe_Example";
+			path = "Target Support Files/Pods-otsdk_adobe_Example";
+			sourceTree = "<group>";
+		};
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DB3DE4B600A9212C956CA9CEBD3251D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		253DD5C1594C997362DFEA025779CE90 /* otsdk_adobe */ = {
+			isa = PBXGroup;
+			children = (
+				57F23A8FC2E17620998CF7B39060DAB3 /* otsdk_adobe.h */,
+				288C208BF58B510E67A0D4D4956B7F20 /* otsdk_adobe.m */,
+				11CDB7CDB4AE7D804D80D88CE5EDB25F /* otsdk_adobe_listener.h */,
+				8E4ECCED919E7669D95D099AC2B00319 /* otsdk_adobe_listener.m */,
+				BBA07CB948A20F8F67BB02EFED8AF97C /* Pod */,
+				00AD0611414926135682C3485B211EA6 /* Support Files */,
+			);
+			name = otsdk_adobe;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2B2F8AE17E499BADE65FE9B7BB5F4659 /* Pods-otsdk_adobe_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7E6CF96707291DA96C2651BD0AC67DF5 /* Info.plist */,
+				647A9C422E5246B359B9EACFC5CF9C51 /* Pods-otsdk_adobe_Tests.modulemap */,
+				6ABCBCD990A995E848BE967A8BFF1446 /* Pods-otsdk_adobe_Tests-acknowledgements.markdown */,
+				0B30D7567A2F7623C2095FB5EEBD71DF /* Pods-otsdk_adobe_Tests-acknowledgements.plist */,
+				EE97949C6536C99FFEF7A88CA18D79BA /* Pods-otsdk_adobe_Tests-dummy.m */,
+				E951C4CB3135679C15E9ABBD420E13E5 /* Pods-otsdk_adobe_Tests-frameworks.sh */,
+				D4E2AE52E28FC3C571E14671EE3048C0 /* Pods-otsdk_adobe_Tests-resources.sh */,
+				E28499E7EEC248CEC913555548FF4A5E /* Pods-otsdk_adobe_Tests-umbrella.h */,
+				47C27053ED6E22AA527F4505EC61C47F /* Pods-otsdk_adobe_Tests.debug.xcconfig */,
+				CA11F260FDC954041047C38A1D3F4B83 /* Pods-otsdk_adobe_Tests.release.xcconfig */,
+			);
+			name = "Pods-otsdk_adobe_Tests";
+			path = "Target Support Files/Pods-otsdk_adobe_Tests";
+			sourceTree = "<group>";
+		};
+		446708A5143E3D80D153DB9E698709DC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5AB5072D612989923CD04A5F0E64F141 /* ACPCore.h */,
+				B2E8DA6CE46BF88CB12A1328C9DC1D7D /* ACPExtension.h */,
+				099E4ED6A03779D53C1ABFDB48806E72 /* ACPExtensionApi.h */,
+				B4A65336AA2D877C80D0C2CB87A68AD9 /* ACPExtensionError.h */,
+				F5BCC8C5C5BFD76F741D36C08F4BC94E /* ACPExtensionEvent.h */,
+				23059245F9447619E2B1DE026E0CDAD3 /* ACPExtensionListener.h */,
+				C29B1BD9131FB8915B50509BC193F745 /* ACPIdentity.h */,
+				29AF0F2AE53431F3E916D4C9529CC67A /* ACPLifecycle.h */,
+				39A87B40B1440F8FC3808CE2B90AA699 /* ACPMobileVisitorId.h */,
+				9A29FA73044C111BECAD0CAD31D6AB02 /* ACPSignal.h */,
+				B3C0A564576843460E0E6CC60FBA4A40 /* Empty.m */,
+				EF323B64297B71EA31E0A8E77A350B5B /* Frameworks */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A672084537D59515161FD71E04AE9A1A /* Development Pods */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
+				EE8634F9A093C8FD5D107A22BF9618BA /* Pods */,
+				AFCD47918C3F19BE28DD690C69CAF6CB /* Products */,
+				B50C4471C7344172E3258D5C05F03AEA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8DB3DE4B600A9212C956CA9CEBD3251D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DD011073A06F55D46CABE8D45FE650A0 /* Foundation.framework */,
+				A29D82E2D87227993112140A45D8A9D2 /* SystemConfiguration.framework */,
+				17B3269F16E6A308704931E4F805C260 /* UIKit.framework */,
+				B442D7979B8BDD99D4492FA4C61152F9 /* UserNotifications.framework */,
+				84B33432C2A4E740D66384C114D1E4A9 /* WebKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		941E86588615D38846C0BC4D9B6B8F0F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6A2F817560FE1910F268DA7A7D5A2E3 /* ACPCore.modulemap */,
+				06C14DEACB42E3F3EE9E8725B8FBAFC5 /* ACPCore.xcconfig */,
+				3C40659109DDBC499D03A1AAB1E63560 /* ACPCore-dummy.m */,
+				A1AA1B71448E2FD2C06E6D92D3F29B6B /* ACPCore-prefix.pch */,
+				B43C61A489EEA6A2C945C0194A4B4C24 /* ACPCore-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ACPCore";
+			sourceTree = "<group>";
+		};
+		A672084537D59515161FD71E04AE9A1A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				253DD5C1594C997362DFEA025779CE90 /* otsdk_adobe */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AFCD47918C3F19BE28DD690C69CAF6CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C256A526874D9B2896D0C1FEF92EFBF /* ACPCore.framework */,
+				933F2310450C54188442C863D67489CE /* otsdk_adobe.framework */,
+				BFC4F27C93E81259F136D89A9F6C9B63 /* Pods_otsdk_adobe_Example.framework */,
+				41EB4126AF98483AB90D6FFC722B036B /* Pods_otsdk_adobe_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B50C4471C7344172E3258D5C05F03AEA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				17146CA7B8348797F71FC54D37F380B0 /* Pods-otsdk_adobe_Example */,
+				2B2F8AE17E499BADE65FE9B7BB5F4659 /* Pods-otsdk_adobe_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BBA07CB948A20F8F67BB02EFED8AF97C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				96A9DBCCC4D29ED4D3B21DB4CC7D2476 /* LICENSE */,
+				DD9606BAEA2DE48EC8ACBDD58125B96F /* otsdk_adobe.podspec */,
+				E243EEA7817E6E863D23C1CFDEE07D27 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		EE8634F9A093C8FD5D107A22BF9618BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15ED835FD867B59ADD9A78EA04BB828F /* ACPCore */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF323B64297B71EA31E0A8E77A350B5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE0177717779D195FA99EC8D166F5A4C /* libACPCore_iOS.a */,
+				B23AACFE2E57751698AC5BE9BDB0386E /* libACPIdentity_iOS.a */,
+				A1DA60CCFF144B7B242CFFBA0ED4406E /* libACPLifecycle_iOS.a */,
+				4488D2CBB946835E5691897A01D58DB5 /* libACPSignal_iOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1773E80ACDAD96CCA19F7A77DB592921 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D55B332CEE18373C3301E340C51EAE /* ACPCore-umbrella.h in Headers */,
+				D5016B7D0FBDCBE4A1427AA2F1F86EB4 /* ACPCore.h in Headers */,
+				60942543669FC675EA84B6303D763C30 /* ACPExtension.h in Headers */,
+				114B45845C32C30C69C6E9E791E3326D /* ACPExtensionApi.h in Headers */,
+				CD2932AECA09B89F25F54DBDAE24327E /* ACPExtensionError.h in Headers */,
+				95284D8BC4382F66C9FC1F58D687169E /* ACPExtensionEvent.h in Headers */,
+				8F030565BD00922B491D133ADC0C0260 /* ACPExtensionListener.h in Headers */,
+				7DE98C638BC9C5180C4664D6473E61FC /* ACPIdentity.h in Headers */,
+				CEDA28679F79AACDFFF018AE76DB57B8 /* ACPLifecycle.h in Headers */,
+				3D4E64A69F2F8C05581C792CE0365C80 /* ACPMobileVisitorId.h in Headers */,
+				76E61DD96BC4790D7649CE063F73A3D4 /* ACPSignal.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B68E04CFC21E68CF8C8FF49C4320E01D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C4E4A3B4A6A248F03547FE35D153F5 /* otsdk_adobe-umbrella.h in Headers */,
+				E0AB130C840499073316C7F3CA4C8CF3 /* otsdk_adobe.h in Headers */,
+				F619B997BAD7B7F47B9B3CD8F21C40DF /* otsdk_adobe_listener.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0C2F23450C3B787E27D2A8C083DA785 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD39EE40B69FB03588107EFF8F760A50 /* Pods-otsdk_adobe_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB02BD5DBFD0AB903983C36731289796 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26D1A591DFD6B5366C119B1F0E9BCD1 /* Pods-otsdk_adobe_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4EB282AC74939CFF691B95E36B16E9E5 /* otsdk_adobe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84EB6903E5AB9DD9C9D3617FB2FFA7C3 /* Build configuration list for PBXNativeTarget "otsdk_adobe" */;
+			buildPhases = (
+				B68E04CFC21E68CF8C8FF49C4320E01D /* Headers */,
+				79F559F35E1BD2D68340EF479CF5FFF8 /* Sources */,
+				C37D18689D90FB97B7EF5C67CB3CB88C /* Frameworks */,
+				29FBF7E1810837E03C24346E3831EFC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A148DFE9FAEC1372F8939EE7735CA5A /* PBXTargetDependency */,
+			);
+			name = otsdk_adobe;
+			productName = otsdk_adobe;
+			productReference = 933F2310450C54188442C863D67489CE /* otsdk_adobe.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		776A53DFD666DBC90846DC1A77EBC8D2 /* ACPCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 427D6F8BBA131D8713867665E5AE31E3 /* Build configuration list for PBXNativeTarget "ACPCore" */;
+			buildPhases = (
+				1773E80ACDAD96CCA19F7A77DB592921 /* Headers */,
+				84C8C6F3EBCB73AA23D362DF53C5F8C3 /* Sources */,
+				65E70326E6AC730D0CCE4BC03F888C7A /* Frameworks */,
+				C1193D12C05BD8C8CA23C4E3D5012088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ACPCore;
+			productName = ACPCore;
+			productReference = 5C256A526874D9B2896D0C1FEF92EFBF /* ACPCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B63966594ECCFBA42A6A0223C7130166 /* Pods-otsdk_adobe_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E02F11F17B0ECFCCAC70779F4A5DA2D /* Build configuration list for PBXNativeTarget "Pods-otsdk_adobe_Example" */;
+			buildPhases = (
+				FB02BD5DBFD0AB903983C36731289796 /* Headers */,
+				D3C884FFC2205A64AB62EE8284E50823 /* Sources */,
+				D8FBBA843CF8DBFB79C55241CA116699 /* Frameworks */,
+				48B5655116204E96617D5B55B62B7428 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FED466255C818933268DB8180EB5FA7B /* PBXTargetDependency */,
+				3CA855534DDE02D9829428A4C8816C49 /* PBXTargetDependency */,
+			);
+			name = "Pods-otsdk_adobe_Example";
+			productName = "Pods-otsdk_adobe_Example";
+			productReference = BFC4F27C93E81259F136D89A9F6C9B63 /* Pods_otsdk_adobe_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BAAA277CC2A0CEB47D810EC5C43BF791 /* Pods-otsdk_adobe_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AC89F57BAB65A3C6D13D2E2A012A12E /* Build configuration list for PBXNativeTarget "Pods-otsdk_adobe_Tests" */;
+			buildPhases = (
+				F0C2F23450C3B787E27D2A8C083DA785 /* Headers */,
+				3AF0D1CAE65B8B56C250A5CC818A48EC /* Sources */,
+				8AD4B387D08194A95709C6EF91F6A729 /* Frameworks */,
+				5DB1453ECCE64DACCCDDAFE83A7ECF44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9551349A27ED60364E9CB1B9DB8CAB9D /* PBXTargetDependency */,
+			);
+			name = "Pods-otsdk_adobe_Tests";
+			productName = "Pods-otsdk_adobe_Tests";
+			productReference = 41EB4126AF98483AB90D6FFC722B036B /* Pods_otsdk_adobe_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = AFCD47918C3F19BE28DD690C69CAF6CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				776A53DFD666DBC90846DC1A77EBC8D2 /* ACPCore */,
+				4EB282AC74939CFF691B95E36B16E9E5 /* otsdk_adobe */,
+				B63966594ECCFBA42A6A0223C7130166 /* Pods-otsdk_adobe_Example */,
+				BAAA277CC2A0CEB47D810EC5C43BF791 /* Pods-otsdk_adobe_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29FBF7E1810837E03C24346E3831EFC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48B5655116204E96617D5B55B62B7428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB1453ECCE64DACCCDDAFE83A7ECF44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1193D12C05BD8C8CA23C4E3D5012088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AF0D1CAE65B8B56C250A5CC818A48EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D4859132E17DBD3C061D8669892BD96 /* Pods-otsdk_adobe_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F559F35E1BD2D68340EF479CF5FFF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2AE2590051919A19BFCC983D2181855 /* otsdk_adobe-dummy.m in Sources */,
+				F5BFA943779150BAE57F986C1946ECCF /* otsdk_adobe.m in Sources */,
+				4992A2A1A10FCD1CE3E12938A01ED144 /* otsdk_adobe_listener.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C8C6F3EBCB73AA23D362DF53C5F8C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CBC7F9A6B29AFB4CBD566DD50958B83 /* ACPCore-dummy.m in Sources */,
+				9B2C563D0C10368333CAB76FCBDEB5C3 /* Empty.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C884FFC2205A64AB62EE8284E50823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE3A684A96B18E219BB42A8E4485D4D /* Pods-otsdk_adobe_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A148DFE9FAEC1372F8939EE7735CA5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ACPCore;
+			target = 776A53DFD666DBC90846DC1A77EBC8D2 /* ACPCore */;
+			targetProxy = A9D2119EB51D481C66F8EF04D56EF56C /* PBXContainerItemProxy */;
+		};
+		3CA855534DDE02D9829428A4C8816C49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = otsdk_adobe;
+			target = 4EB282AC74939CFF691B95E36B16E9E5 /* otsdk_adobe */;
+			targetProxy = B7267F743B361371CB587B984AF14958 /* PBXContainerItemProxy */;
+		};
+		9551349A27ED60364E9CB1B9DB8CAB9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-otsdk_adobe_Example";
+			target = B63966594ECCFBA42A6A0223C7130166 /* Pods-otsdk_adobe_Example */;
+			targetProxy = BBA2C63A9170FF0AA9CA6A2463EEE8FC /* PBXContainerItemProxy */;
+		};
+		FED466255C818933268DB8180EB5FA7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ACPCore;
+			target = 776A53DFD666DBC90846DC1A77EBC8D2 /* ACPCore */;
+			targetProxy = 4204790C963D3609817526B42B2C368B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		40B45BB3CF3EE4476259302A7FAAD78F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		49BB4DBD47E75CCE7139D2672EBC4DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06C14DEACB42E3F3EE9E8725B8FBAFC5 /* ACPCore.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ACPCore/ACPCore-prefix.pch";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/ACPCore/ACPCore.modulemap";
+				PRODUCT_MODULE_NAME = ACPCore;
+				PRODUCT_NAME = ACPCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F2D40CD0DAB35928D93FB04AE9840AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 235CE581B97E51E841EC794C888ABF4A /* otsdk_adobe.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/otsdk_adobe/otsdk_adobe-prefix.pch";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/otsdk_adobe/otsdk_adobe.modulemap";
+				PRODUCT_MODULE_NAME = otsdk_adobe;
+				PRODUCT_NAME = otsdk_adobe;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		85ED3013A635C27F8B7FAF51362B108C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		923B8AC9C5F739F70BBA922519A68410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47C27053ED6E22AA527F4505EC61C47F /* Pods-otsdk_adobe_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-otsdk_adobe_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-otsdk_adobe_Tests/Pods-otsdk_adobe_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7568FF2D2BBA6B0E6A0CC38117686FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F746F758BD033EED197D42AD4189CDD /* Pods-otsdk_adobe_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-otsdk_adobe_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-otsdk_adobe_Example/Pods-otsdk_adobe_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CF776A405E047BAF604EFF47D1BED2DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06C14DEACB42E3F3EE9E8725B8FBAFC5 /* ACPCore.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ACPCore/ACPCore-prefix.pch";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/ACPCore/ACPCore.modulemap";
+				PRODUCT_MODULE_NAME = ACPCore;
+				PRODUCT_NAME = ACPCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D09AEFC0FBF7F2BEB8883790ADD500F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 235CE581B97E51E841EC794C888ABF4A /* otsdk_adobe.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/otsdk_adobe/otsdk_adobe-prefix.pch";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/otsdk_adobe/otsdk_adobe.modulemap";
+				PRODUCT_MODULE_NAME = otsdk_adobe;
+				PRODUCT_NAME = otsdk_adobe;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EE31255FACC7372AE37CB3C9089A20E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8CEEB1C91577FC3EFDEB26CC88CF02F /* Pods-otsdk_adobe_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-otsdk_adobe_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-otsdk_adobe_Example/Pods-otsdk_adobe_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F211F41148DAD0083BBAD9D351F3BC30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA11F260FDC954041047C38A1D3F4B83 /* Pods-otsdk_adobe_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-otsdk_adobe_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-otsdk_adobe_Tests/Pods-otsdk_adobe_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85ED3013A635C27F8B7FAF51362B108C /* Debug */,
+				40B45BB3CF3EE4476259302A7FAAD78F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AC89F57BAB65A3C6D13D2E2A012A12E /* Build configuration list for PBXNativeTarget "Pods-otsdk_adobe_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923B8AC9C5F739F70BBA922519A68410 /* Debug */,
+				F211F41148DAD0083BBAD9D351F3BC30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		427D6F8BBA131D8713867665E5AE31E3 /* Build configuration list for PBXNativeTarget "ACPCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF776A405E047BAF604EFF47D1BED2DC /* Debug */,
+				49BB4DBD47E75CCE7139D2672EBC4DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84EB6903E5AB9DD9C9D3617FB2FFA7C3 /* Build configuration list for PBXNativeTarget "otsdk_adobe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F2D40CD0DAB35928D93FB04AE9840AE /* Debug */,
+				D09AEFC0FBF7F2BEB8883790ADD500F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E02F11F17B0ECFCCAC70779F4A5DA2D /* Build configuration list for PBXNativeTarget "Pods-otsdk_adobe_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE31255FACC7372AE37CB3C9089A20E6 /* Debug */,
+				B7568FF2D2BBA6B0E6A0CC38117686FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

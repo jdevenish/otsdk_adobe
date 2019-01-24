@@ -1,0 +1,26 @@
+PODS:
+  - ACPCore (2.0.1):
+    - ACPCore/iOS (= 2.0.1)
+  - ACPCore/iOS (2.0.1)
+  - otsdk_adobe (0.1.0):
+    - ACPCore (~> 2.0.1)
+
+DEPENDENCIES:
+  - ACPCore (~> 2.0.0)
+  - otsdk_adobe (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ACPCore
+
+EXTERNAL SOURCES:
+  otsdk_adobe:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ACPCore: 18f65b91b8752778799310527f46cf23c0d6facf
+  otsdk_adobe: a23c79535511f61d8ef1bb14eac01012d1487a6f
+
+PODFILE CHECKSUM: 8373a687e0de496ab39071752b5a76deef18b6dc
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,6 @@
+framework module otsdk_adobe {
+  umbrella header "otsdk_adobe-umbrella.h"
+
+  export *
+  module * { export * }
+}
